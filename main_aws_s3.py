@@ -10,7 +10,6 @@ PRI_BUCKET_NAME = 'python-tutorials-bucket'
 TRANSIENT_BUCKET_NAME = 'python-tutorials-bucket2'
 FILE_1 = 'test_file.txt'
 FILE_2 = 'test_file_2.txt'
-DIR = '/workspaces/python_tutorials'
 DOWN_DIR = '/workspaces/python_tutorials'
 
 def main():
@@ -20,7 +19,7 @@ def main():
     s3 = boto3.resource('s3', aws_access_key_id=access_key, aws_secret_access_key=secret_access_key)
     #create_bucket(TRANSIENT_BUCKET_NAME, s3)
     #download_file(PRI_BUCKET_NAME, DOWN_DIR, FILE_1, FILE_1, s3)
-    #upload_file(TRANSIENT_BUCKET_NAME, DIR, FILE_1, s3)
+    #upload_file(TRANSIENT_BUCKET_NAME, DOWN_DIR, FILE_1, s3)
     #delete_file(TRANSIENT_BUCKET_NAME, [FILE_1], s3)
     #copy_file(PRI_BUCKET_NAME, TRANSIENT_BUCKET_NAME, FILE_1, FILE_2, s3)
     #list_objects(TRANSIENT_BUCKET_NAME, s3)
