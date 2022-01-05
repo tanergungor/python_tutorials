@@ -2,7 +2,7 @@
 
 <h2>Run the AWS S3 Service</h2>
 
-You should run the following commands to install the necessary packages and run the project:
+You should run the following commands to install the necessary packages and run the s3 service:
 
 > export AWS_ACCESS_KEY_ID=<AWS_ACCESS_KEY_ID>
 
@@ -15,7 +15,7 @@ You should run the following commands to install the necessary packages and run 
 
 <h2>Run the AWS IoT Service</h2>
 
-You should run the following commands to install the necessary packages and run the project:
+You should run the following commands to install the necessary packages and run the iot publisher service:
 
 > pip install -r requirements.txt 
 
