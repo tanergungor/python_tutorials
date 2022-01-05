@@ -1,6 +1,6 @@
 # python_tutorials
 
-<h2>Build the Project</h2>
+<h2>Run the AWS S3 Service</h2>
 
 You should run the following commands to install the necessary packages and run the project:
 
@@ -10,4 +10,13 @@ You should run the following commands to install the necessary packages and run 
 
 > pip install -r requirements.txt 
 
-> python3 main_aws_s3.py
+> python3 s3/main_aws_s3.py
+
+
+<h2>Run the AWS IoT Service</h2>
+
+You should run the following commands to install the necessary packages and run the project:
+
+> pip install -r requirements.txt 
+
+> python3 iot/main_aws_iot_publisher.py
